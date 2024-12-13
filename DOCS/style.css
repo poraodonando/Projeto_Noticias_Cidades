@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: aqua;
+}
+
+#topo{
+    
+    height: 300px;
+    background: #294C71 url(../Assets/Imagens/fundo.png) repeat-x bottom ;
+}
+
+#img_logo{
+   padding: 30px 0 0 30px;
+}
+
+#menu_principal{
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+#menu_principal ul{
+   
+    float: left;
+    list-style: none;
+    
+    
+}
+
+
+#menu_principal ul li {
+    
+    float: left;
+    padding: 20px;
+    background: #AF002F;
+    
+    
+}
+
+#menu_principal ul li a{
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+#menu_principal ul :hover{
+    
+    background-color: #E00038;
+
+}
+
+
+#mapa_logo{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+}
