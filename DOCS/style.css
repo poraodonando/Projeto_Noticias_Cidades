@@ -7,6 +7,18 @@
 body{
     background-color: white;
 }
+h2{
+    font-size: 1.1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 
 #topo{
     
@@ -67,7 +79,7 @@ body{
 }
 
 
-#conteudo_principal{
+.conteudo_principal{
     width: 820px;
     margin: 0 auto;
     background: #f5f5f5;
@@ -76,22 +88,30 @@ body{
 
 #barra_lateral{
     width: 180px;
-    background: yellow;
     float: left;
     margin: 0 15px 20x 0;
 }
 
 #cont_primario{
     width: 270px;
-    background: blue;
     float: left;
     margin: 0 15px 20px 15px;
+}
+
+#duas-colunas #cont_primario{
+    width: 555px;
+   
+}
+
+#uma-colunas #cont_primario{
+    width: 750px;
+    
+    margin: 0 0 20px 0;
 }
 
 
 #cont_secundario{
     width: 270px;
-    background: green;
     float: left;
     margin: 0 15px 20px 0;
    
@@ -104,9 +124,90 @@ body{
     padding: 20px;
 }
 
+
+.caixa{
+    margin: 10px 0;
+    padding: 5px 0  5px 0;
+    background: #f3f3f3 url(../Assets/Imagens/fundo-caixa.png);
+}
+
+.caixa-conteudo{
+    background: white;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/*******************************
+Formatação do menu lateral    */
+
+#barra_lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1ps solid #f3f3f3 ;
+}
+
+#barra_lateral ul a:hover{
+    color: #a1a1a1;
+    background:#f9f9f9 url(../Assets/Imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+}
+
+
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input{
+    font-size: 0.9em;
+    background-color: #fff;
+    padding: 5px;
+    width: 125px;
+}
+
+input.submit{
+    width: 80px;
+    color: white;
+    background-color: #E00038;
+}
+
+/*******************************
+Formatação do imagens   */
+
+img.imagem-principal{
+    width: 96%;
+    border: 4px solid #dfdfdf;
+}
+
+/*******************************
+Formatação cabeçalhos   */
+
+.destaque h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+    background: #b10333;
+    color: white;
+
+}
+.entrevista h3{
+    background: #de003e;
+}
+
+
+
+/*******************************
+Formatação do rodapé    */
+
 #rodape{
     width: 750px;
     margin: 0 auto;
     color: #fff;
     text-align: center;
 }
+
