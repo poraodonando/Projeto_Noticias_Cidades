@@ -199,6 +199,39 @@ Formatação cabeçalhos   */
     background: #de003e;
 }
 
+/*******************************
+Formatação de lista noticia    */
+
+#lista-noticia li{
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 62px;
+}
+
+#lista-noticia li a img{
+    float: left;
+    margin: 5px;
+
+}
+
+#lista-noticia li a {
+    text-decoration: none;
+    font-size: 0.8em;
+}
+#lista-noticia li a h3{
+    font-size: 1em;
+    padding: 0;
+    color: #3e7ab9;
+}
+
+#lista-noticia li a p{
+    
+    font-size: 0.8em;
+}
+#lista-noticia li:hover{
+    background: #eeeeee;
+    cursor: pointer;
+}
 
 
 /*******************************
